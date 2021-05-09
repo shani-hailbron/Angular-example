@@ -1,0 +1,13 @@
+<p>agent works!</p>
+
+<h1>Add New Goul</h1>
+
+
+<!-- רק סוכן יכול להכניס יעד חדש -->
+<div *ngIf="mode==1">
+    <input type="text" [(ngModel)]="goulName" placeholder="goul name"/>
+    <button  (click)="addNewGoul()" >Add New Goul</button>
+</div>
+
+
+<app-management></app-management>

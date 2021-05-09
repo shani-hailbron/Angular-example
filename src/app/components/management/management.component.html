@@ -1,0 +1,22 @@
+<p>management works!</p>
+<!-- הדפסת רשימת היעדים -->
+<ul>
+    <li *ngFor="let goul of gouls"> {{ goul }}</li>
+</ul>
+
+<!-- הדפסת רשימת הכרטיסים שהוזמנו -->
+<h1>Orders</h1>
+<ul>
+    <li *ngFor="let order of orders"> {{ order. passengerName}} | {{order.source}} | 
+        {{ order. goul}} | {{order.planeTicketPrice}} | {{ order. dateTime}} | {{order.numberPlane}}  </li>
+</ul>
+
+<app-buy-card></app-buy-card>
+<!-- passengerName:'aaaa',
+  source:'israel',
+  goul: 'USA',
+  planeTicketPrice:1550,
+  dateTime:'date: 04/03/2021 time: 00:33',
+  numberPlane:655
+ -->
+

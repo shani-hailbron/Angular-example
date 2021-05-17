@@ -1,0 +1,9 @@
+<p>show-jobs-list works!</p>
+
+<ul>
+    <li *ngFor="let job of jobs; let i=index">
+       <span> {{job.id}} </span>
+       <span>  {{job.idDescription}} </span>
+       <h3> the avg to this jobs: {{ avg[i] }} </h3>
+    </li>
+</ul>

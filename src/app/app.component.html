@@ -1,1 +1,8 @@
-<app-agent></app-agent>
+  
+  <div>
+    <h1>Observables</h1>
+    <button (click)="setShowWorkers(1)">show workers</button>
+    <button (click)="setShowWorkers(0)">show jobs</button>
+    <app-show-workers-list *ngIf="workersList==1"></app-show-workers-list>
+    <app-show-jobs-list *ngIf="workersList==0"></app-show-jobs-list>
+  </div>

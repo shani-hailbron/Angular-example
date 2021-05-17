@@ -3,24 +3,21 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AgentComponent } from './components/agent/agent.component';
-import { ManagementComponent } from './components/management/management.component';
-import { FormsModule } from '@angular/forms';
-import { BuyCardComponent } from './components/buy-card/buy-card.component';
-
+import { ShowWorkersListComponent } from './show-workers-list/show-workers-list.component';
+import { ShowJobsListComponent } from './show-jobs-list/show-jobs-list.component';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AgentComponent,
-    ManagementComponent,
-    BuyCardComponent,
+    ShowWorkersListComponent,
+    ShowJobsListComponent,
 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,32 @@
+[
+    {
+      "id":1,
+      "job": 1,
+      "salary": 15000,
+      "name":"david"  
+    },
+    {
+        "id":2,
+        "job": 1,
+        "salary": 5000,
+        "name":"shlomo"  
+      },
+      {
+        "id":3,
+        "job": 2,
+        "salary": 5600,
+        "name":"rachel"  
+      },
+      {
+        "id":4,
+        "job": 2,
+        "salary": 6000,
+        "name":"sara"  
+      },
+      {
+        "id":5,
+        "job": 1,
+        "salary": 65550,
+        "name":"rivka"  
+      }
+]

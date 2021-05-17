@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  
+  workersList:number=0;
+  setShowWorkers(num:number){
+      this.workersList=num;
+  }
   title = 'Angular-project';
 }
